@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+select {
+    background: transparent;
+    color: inherit;
+    border: none;
+}
+
+.nav {
+    background: linear-gradient(to left, rgb(12, 11, 66), rgb(201, 227, 224));
+    padding: 10px 40px;
+    border-radius: 12px;
+}
+
+.nav a {
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: rgb(5, 8, 177);
+}
+
+.nav img {
+
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+
+}
+
+
+.all .form {
+    background: linear-gradient(to left, rgb(12, 11, 66), rgb(201, 227, 224));
+    border: 2px solid rgb(55, 255, 0);
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    width: 45%;
+
+}
+
+.form h1 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.form input {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 300px;
+    height: 50px;
+
+}
+
+.form select {
+    background: transparent;
+    color: inherit;
+    appearance: none;
+
+
+    border: none;
+
+}
+
+.form textarea {
+    margin-left: 30px;
+}
+
+.form button {
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.form button:hover {
+    border-color: green;
+    background-color: rgb(92, 179, 213);
+}
+
+iframe {
+    background-color: rgb(4, 4, 172);
+    width: 45%;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    /* justify-content: right; */
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.futter {
+    background: linear-gradient(to left, rgb(12, 11, 66), rgb(201, 227, 224));
+    border-radius: 12px;
+}
+
+.futter h1 {
+    padding: 20px;
+}
+
+.futter h1:hover {
+    color: blue
+}
+
+.futter .ul1 {
+    display: inline-block;
+    padding: 40px;
+}
+
+.futter .ul1:hover {
+    text-decoration: underline;
+}
+
+.futter .ul2 {
+    display: inline-block;
+    padding: 40px;
+}
+
+.futter .ul2:hover {
+    text-decoration: underline;
+}
+
+.futter .ul3 {
+    display: inline-block;
+    padding: 40px;
+}
+
+.futter .ul3:hover {
+    text-decoration: underline;
+}
+
+.futter .h {
+    text-align: center;
+}
+
+.futter .h:hover {
+    color: aqua;
+}

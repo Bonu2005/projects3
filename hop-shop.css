@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+select{
+    background: transparent;
+    color: inherit;
+    border:none;
+}
+.nav{
+    background:linear-gradient(to left,rgb(12, 11, 66),rgb(201, 227, 224));
+    padding: 10px 40px;
+    border-radius: 12px;
+}
+.nav a{
+   vertical-align: middle;
+    padding: 0 20px ;
+   
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: rgb(5, 8, 177);
+}
+.nav img{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+
+.win{
+    width: 280px;
+    
+    border-radius: 12px;
+    margin: 100px;
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid rgb(218, 230, 231);
+    box-shadow: 10px 10px 5px 12px lightblue;
+    background:linear-gradient(to top, lightgoldenrodyellow,rgba(115, 157, 207, 0.956));   
+}
+.win:hover{
+    transition: 2s;
+    width: 320px;
+    border: 4px solid rgb(35, 1, 35);
+    background:linear-gradient(to bottom,  lightgoldenrodyellow,rgba(91, 149, 220, 0.956));
+
+}
+.win img{
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+}
+.win .text{
+    
+    text-align: justify;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.text button{
+    width: 50%;
+    height: 30px;
+    border-radius: 12px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.text button:hover{
+    width: 60%;
+    height: 40px ;
+    background-color: rgb(10, 134, 186);
+}
+.futter{
+    background:linear-gradient(to left,rgb(12, 11, 66),rgb(201, 227, 224));
+    border-radius: 12px;
+}
+.futter h1{
+    padding: 20px; 
+}
+.futter h1:hover{
+    color:blue
+}
+.futter .ul1{
+    
+    
+    display: inline-block;
+    padding: 40px;
+}
+.futter .ul1:hover{
+    text-decoration: underline;
+}
+.futter .ul2{
+    display: inline-block;
+    padding: 40px;
+}
+.futter .ul2:hover{
+    text-decoration: underline;
+}
+.futter .ul3{
+    display: inline-block;
+    padding: 40px;
+}
+.futter .ul3:hover{
+    text-decoration: underline;
+}
+.futter .h{
+    text-align: center;
+}
+.futter .h:hover{
+    color: aqua;
+}
